@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pozivnica</title>
+
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Inter:wght@300;400&display=swap" rel="stylesheet">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+</head>
+<body>
+
+<button class="repeat-btn" title="Play again">&#10227; Repeat</button>
+
+<div class="scene">
+  <div class="envelope">
+    
+
+    <!-- LETTER (PRVO) -->
+    <div class="letter">
+      <div class="card">
+        <div class="hart">
+          <img src="images/arch.png" class="malo-srce">
+        </div>
+
+      <b> <i><p>Dobrodošli na naše venčanje!</p></i> </b>
+        <div class="decor-top" aria-hidden="true"></div>
+        <button id="musicToggle" class="music-toggle" aria-label="Play music">▶</button>
+        <h1>Marko &amp; Jelena</h1>
+        <div class="flourish" aria-hidden="true">
+          <svg width="120" height="24" viewBox="0 0 120 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path d="M2 12 C20 2, 40 22, 60 12 C80 2, 100 22, 118 12" fill="none" stroke="#d4af9b" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" opacity="0.95"/>
+          </svg>
+        </div>
+        <p class="date">25. Jul 2026</p>
+       <b> <p class="location">Hotel Šumadija<br>Gornji Milanovac<br>16:00h</p></b>
+        <div class="divider" aria-hidden="true"></div>
+        <p class="rsvp">Vas dolazak potvrdite do 25. Jun 2026.</p>
+        <p class="hosts">Porodice:<br> Stevanović:064-921-39-05 <br> Mihajlović:065-27-26-432</p>
+        <div class="decor-bottom" aria-hidden="true"></div>
+      </div>
+
+    </div>
+    <!-- DONJI DEO -->
+    <div class="body"> </div>
+    <!-- GORNJI FLAP -->
+    <div class="flap"></div>
+    <!-- VOSAK -->
+    <img src="images/wax.png" alt="Wax Seal" class="seal">
+  </div>
+</div>
+
+<!-- Audio: replace audio/song.mp3 with your file (put it in audio/ folder) -->
+<audio id="music" src="audio/Just the Two of Us (feat. Bill Withers).mp3" loop></audio>
+
+<script src="script.js"></script>
+</body>
+</html>
