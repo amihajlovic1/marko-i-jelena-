@@ -8,7 +8,7 @@
 
 body{
   
- background-image: url(image/slikaa1.jpg);
+ background-image: url(images/slikaa1.jpg);
  background-size: contain;
  background-position: center;
  background-repeat: no-repeat;
@@ -265,4 +265,5 @@ p{
 }
 
 .music-toggle:active{transform:scale(0.95)}
+
 
